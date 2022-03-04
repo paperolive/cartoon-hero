@@ -58,11 +58,21 @@ body{
 	/*images*/
 
 	main img {
-		border-radius: 25%;
     	max-width: 75%;
+    	width: auto\9; /* ie8 */
     	height: auto;
-   		width: auto\9; /* ie8 */
-		border: 12px solid white;
+   		border-radius: 25%;
+    	border: 12px solid white;
+		
+	}
+
+	.list img {
+		margin: 2em;
+		display: block;
+		max-width: 40%;
+		max-height: 40%;
+		width: auto\9;
+		height: auto;
 	}
 
 
