@@ -1,0 +1,48 @@
+body{
+	margin: 0;
+	background-color: coral;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+/*header*/
+
+	header img{
+		border-bottom: 20px solid white;
+		display: block;
+		width: 100%;
+	}
+
+	h1, h2{
+		font-family: 'Monda', sans-serif;
+		color: white;
+		font-size: 30px;
+	}
+
+	header h1{
+		font-size: 100px;
+	}
+
+	.container {
+		position: relative;
+		text-align: center;
+		color: white;
+		}
+
+	.centered {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		}
+
+
+/*main*/
+	main{
+		margin: 20px;
+		color: maroon;}
+
+	main img{
+		border-radius: 170px;
+		width: 300px;
+		border: 20px solid white;
+	}
