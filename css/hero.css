@@ -22,6 +22,8 @@ body{
 		font-size: 100px;
 	}
 
+	/*to center h1 on top of header img*/
+
 	.container {
 		position: relative;
 		text-align: center;
@@ -37,12 +39,26 @@ body{
 
 
 /*main*/
-	main{
-		margin: 20px;
-		color: maroon;}
+	
+	
+	/*main general (margin, text color)*/
 
-	main img{
-		border-radius: 170px;
-		width: 300px;
+	main {
+		margin: 20px;
+		color: maroon;
+	}
+
+	/*images*/
+
+	main img {
+		border-radius: 25%;
+    	max-width: 75%;
+    	height: auto;
+   		width: auto\9; /* ie8 */
 		border: 20px solid white;
+	}
+
+	.scale {
+		display: block;
+		object-position: ;
 	}
