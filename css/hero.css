@@ -1,13 +1,20 @@
+html {
+	font-size: 100%;
+}
+
+
+
 body{
 	margin: 0;
 	background-color: coral;
 	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
 }
 
 /*header*/
 
 	header img{
-		border-bottom: 20px solid white;
+		border-bottom: 12px solid white;
 		display: block;
 		width: 100%;
 	}
@@ -15,11 +22,11 @@ body{
 	h1, h2{
 		font-family: 'Monda', sans-serif;
 		color: white;
-		font-size: 30px;
+		font-size: 2em;
 	}
 
 	header h1{
-		font-size: 100px;
+		font-size: 6em;
 	}
 
 	/*to center h1 on top of header img*/
@@ -55,10 +62,7 @@ body{
     	max-width: 75%;
     	height: auto;
    		width: auto\9; /* ie8 */
-		border: 20px solid white;
+		border: 12px solid white;
 	}
 
-	.scale {
-		display: block;
-		object-position: ;
-	}
+
